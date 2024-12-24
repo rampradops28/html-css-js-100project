@@ -1,0 +1,93 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    height:100vh;
+    background-color: rgb(221, 56, 56); 
+}
+
+.box{
+    height:100%;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+.result{
+    font-size: 30px;
+    color: white;
+}
+
+form input{
+    border: none;
+    height:35px;
+    width:350px;
+    border-radius: 5px;
+}
+
+form button{
+    border: none;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color:white;
+    background:  rgb(221, 56, 56); 
+} */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: crimson;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .main {
+    padding: 5px 0;
+    text-align: center;
+  }
+  
+  input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputs input {
+    border: none;
+    border-radius: 5px;
+    padding: 1rem 10rem;
+    outline: none;
+    margin-bottom: 10px;
+  }
+  
+  #selectOp {
+    margin-bottom: 10px;
+    padding: 10px;
+    outline: none;
+  }
+  
+  #btn {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    margin-top: 10px;
+    cursor: pointer;
+  }
